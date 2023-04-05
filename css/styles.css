@@ -1,3 +1,54 @@
-.button{
-    font-family:Roboto;
+ :root {
+     --iris: var#4d5ae5;
+     --oceans: var#404bbf;
+     --navy-blue: var#2ef422;
+     --green: var #31d00a;
+     --slate: #434455;
+     --light-slate: #8e8f99;
+     --cornflower: #e7e9fc;
+     --cloud: #f4f4fd;
+     --navy-blue-modal: #2e2f42;
+     --grey: #2e2f42;
+     --white: #ffffff;
+     --dairy: #fcfcfc;
+     --main-font: Roboto, sans-serif;
+     --secondary-font: Rawelay, sans-serif;
+ }
+ 
+ .body {
+     font-family: var(--main-font);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: var(--slate);
+     background-color: var(--white);
+ }
+
+.header{
+    position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 0px;
+        top: 72px;
 }
+
+.link{
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+
+}
+    .section-hero{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
