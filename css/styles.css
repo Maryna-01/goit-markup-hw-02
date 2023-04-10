@@ -30,8 +30,14 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    list-style: none
+    list-style: none ;
+    text-decoration: none;
  }
+ .header-logo-link2{
+    color: #2e2f42 ;
+ }
+
+ 
 .link{
     text-decoration: none;
 }
@@ -48,11 +54,47 @@
             left: 0px;
             top: 72px;
     }
+
+         
+ .btn-list-text {
+ background-color: #F4F4FD;
+ color: #4d5ae5;
+ font-family: inherit;
+ font-weight: 500;
+ font-size: 16px ;
+ line-height: 1.5;
+ letter-spacing: 0.04em ; 
+cursor: pointer;
+ }
+ .btn-list-text:hover,
+ .btn-list-text:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+ }
  
- .btn:hover {
- background: #404BBF;
+ .portfolio-title{
+   list-style: none;
+   text-decoration: none;
+   font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
  }
 
+ .portfolio-desk {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+     line-height: 1.5; 
+     letter-spacing: 0.02em ;
+     color:#434455;
+ }
+ 
+ .list-service {
+    background-color: #ffffff;
+ }
+ 
 
 
 
