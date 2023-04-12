@@ -5,51 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="./css/styles.css"> 
-    <title >WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
+
 <body>
-   <header class="header">
-    <div class="container">
-        <nav class="main-nav">
-            <a  href="./index.html" class="header-logo-link link">Web 
-             <span class="header-logo-link2">Studio</span>
-                <img src="./images/Logo.svg" alt="logo">
-            </a>
-            <ul class="header-list-link">
-                <li class="header">
-                    <a class="header-list-link" href="./index.html">Studio</a>
-                </li>
-                <li class="header-list-link">
-                    <a class="header-list-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="header-list-link">
-                    <a class="header-list-link" href="">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="header-contact-link">
-            <ul class="contact-list">
-                <li class="link">
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="link">
-                    <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
-    </div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav-list">
+                <a href="./index.html" class="header-logo-link">Web
+                    <span class="header-logo">Studio</span>
+                </a>
+                <ul class="header-list">
+                    <li class="header">
+                        <a class="header-list" href="./index.html">Studio</a>
+                    </li>
+                    <li class="header-list">
+                        <a class="header-list" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="header-list">
+                        <a class="header-list" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+    <address class="contact">
+        <ul class="contact-list list">
+            <li class="contact-item">
+                <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact-item">
+                <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+        </ul>
+    </address>
+        </div>
     </header>
-    <main class="main">
+    <main>
+
         <section class="section-hero">
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <div class="section-hero-continer">
+                <h1 class="hero-soluction">Effective Solutions
+                    for Your Business
+                </h1>
+                <button type="button" class="btn-list-text">Order Service</button>
+            </div>
         </section>
         <section class="section-about">
             <h2 hidden>Features</h2>
@@ -61,12 +70,14 @@
                 </li>
                 <li class="link">
                     <h3>Punctuality</h3>
-                    <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible
+                    <p class="text">Bring the key message to the brand's audience for the best price within the shortest
+                        possible
                         time.</p>
                 </li>
                 <li class="link">
                     <h3>Diligence</h3>
-                    <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize
+                    <p class="text">Research and confirm brands that present the strongest digital growth opportunities
+                        and minimize
                         risk.</p>
                 </li>
                 <li class="link">
@@ -75,6 +86,7 @@
                         problem-solving.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="section-gallery">
             <h2>What are we doing</h2>
