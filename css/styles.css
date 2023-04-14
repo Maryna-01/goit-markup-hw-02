@@ -60,6 +60,7 @@
     list-style:none ;
     text-decoration: none;
  }
+
 .link{
     text-decoration:none;
     color: inherit;
@@ -147,8 +148,8 @@ cursor: pointer;
    text-transform: capitalize;
    color:#2e2f42;
  }
- .section-team{
-   background-color: #F4F4FD;
+ .section-team-list{
+  background-color: #F4F4FD;
  }
  .teams-list {
    font-size: 36px;
@@ -162,7 +163,7 @@ cursor: pointer;
  .img-list-list{
    list-style: none;
  }
-.footer-container{
+.footer-container-link{
    background-color:#2e2f42;
 }
 
@@ -229,7 +230,7 @@ text-decoration: none;
  .contact-list:focus {
     color: #404bbf;
  }
- .portfolio-footer-container{
+ .portfolio-footer-container-link{
    background-color:#2e2f42;
  }
  .portfolio-footer-logo-link{
