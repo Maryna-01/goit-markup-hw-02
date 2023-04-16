@@ -16,15 +16,37 @@
  }
  
  /* ........index.html........ */
- .body {
+ .body-container {
         font-family: "Roboto", sans-serif; 
-        font-family:'Rawelay',sans-serif;
         color: #434455;
         background-color:#FFFFFF;
  }
 
+         .section-hero-container{
+            font-size: 56px;
+            line-height: 1.07;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+         }
+
+ .btn-list-text{
+   background-color: #4D5AE5;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   cursor: pointer;
+ }
+
+ .list-btn-list:hover,
+ .list-btn-list:focus {
+   background-color: #404BBF;
+ }
+
  .nav-list{
-   font-family: "Raleway", sans-serif;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
@@ -33,14 +55,19 @@
    color:#4d5ae5;
  }
  .link {
-    text-decoration: none;
+   text-decoration: none;
+  color: inherit;
  }
  .header-logo-list{
    color:#2e2f42;
    list-style: none;
  }
-
- .header-list-link{
+ .list{
+ list-style: none;
+ }
+ .header-list-link {
+  font-family: 'Roboto';
+   font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
@@ -50,7 +77,7 @@
  }
 
  .header-logo-link{
-    font-family:"Rawelay",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight:800;
     font-size:18px;
     line-height:1.17;
@@ -61,14 +88,7 @@
     text-decoration: none;
  }
 
-.link{
-    text-decoration:none;
-    color: inherit;
-}
-.header-list-link:hover {
-   color: #404bbf;
-}
-
+.header-list-link:hover,
 .header-list-link:focus {
    color: #404bbf;
 }
@@ -79,14 +99,14 @@
 .contact-list-list{
    list-style: none;
 }
-.contact-item{
+.contact- link link{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color:#434455;
 }
-.contact-link-link:hover,
-.contact-link-link:focus{
+.contact-link link:hover,
+.contact-link link:focus{
    color: #404bbf;
 }
 
@@ -94,32 +114,7 @@
       background-color:#2e2f42;
     }
 
-    .hero-soluction{
-      font-size: 56px;
-      line-height: 1.07;
-      text-align: center;
-      letter-spacing: 0.02em;
-      color: #ffffff;
-    }
-
-         
- .btn-list-text {
- background-color:#4D5AE5;
- font-family: "Roboto", sans-serif;
- font-weight: 500;
- font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor: pointer;
- }
- .btn-list-text:hover,
- .btn-list-text:focus {
-    background-color:#404BBF;
- }
-
  .nav-list {
-   font-family:"Raleway",sans-serif ;
    font-weight:800;
    font-size:18px;
    line-height:1.17;
@@ -191,15 +186,7 @@ cursor: pointer;
    color:#4d5ae5;
    text-decoration: none;
  }
- .portfolio-title{
-    list-style:none;
-    text-decoration: one;
-    font-weight:500;
-    font-size:20px;
-    line-height:1.2;
-    letter-spacing:0.02em;
-    color:#2e2f42;
- } 
+
  .header-logo{
    color:#2e2f42;
  }
