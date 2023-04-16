@@ -16,13 +16,13 @@
  }
  
  /* ........index.html........ */
- .body-container {
+ .header-container {
         font-family: "Roboto", sans-serif; 
         color: #434455;
         background-color:#FFFFFF;
  }
 
-         .section-hero-container{
+         .section-hero-container {
             font-size: 56px;
             line-height: 1.07;
             text-align: center;
@@ -65,7 +65,7 @@
  .list{
  list-style: none;
  }
- .header-list-link {
+ .header-list-link{
   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
