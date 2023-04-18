@@ -61,7 +61,7 @@
   color: #2e2f42;
  }
 
-.header-list-link {
+.header-list-link { 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -118,6 +118,7 @@ color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  color: #ffffff;
 }
 .btn-list-text:hover,
 .btn-list-text:focus{
@@ -189,7 +190,7 @@ background-color: #F4F4FD;
           background-color: #FFFFFF;
     }
 
-.footer-container-link {
+.footer-container {
   background-color: #2e2f42;
 }
 
@@ -217,11 +218,46 @@ background-color: #F4F4FD;
        color: #F4F4FD;
      }
 
-            .text {
-              line-height: 1.5;
-              letter-spacing: 0.02em;
-              color: #434455;
-            }
+ .text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  }
+/* portfolio page */
+.portfolio-btn-list-text{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #F4F4FD;
+  cursor: pointer;
+}
+.portfolio-btn-list-text:hover {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
+.portfolio-btn-list-text:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+.portfolio-title{
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #2e2f42;
+
+}
+.portfolio-desk{
+font-size: 16px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
 
 
 
