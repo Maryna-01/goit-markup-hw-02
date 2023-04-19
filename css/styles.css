@@ -78,12 +78,7 @@ color: #2e2f42;
 .contact{
   font-style: normal;
 }
-.contact-item:hover{
-  color: #404bbf;
-}
-.contact-item:focus{
-  color: #404bbf;
-}
+
 .contact-item{
   font-size: 16px;
   line-height: 1.5;
@@ -91,17 +86,17 @@ color: #2e2f42;
   color: #434455;
 }
 
-.contact-link link {
+.contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contact-link link:hover{
+.contact-link:hover{
   color: #404bbf;
 }
-.contact-link link :focus {
+.contact-link :focus {
   color: #404bbf;
 }
 
