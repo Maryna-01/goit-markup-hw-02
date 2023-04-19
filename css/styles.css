@@ -51,7 +51,7 @@
  
  .link{
   text-decoration: none;
-    color: inherit;
+  color: inherit;
  }
  .list {
    list-style: none;
@@ -96,7 +96,7 @@ color: #2e2f42;
 .contact-link:hover{
   color: #404bbf;
 }
-.contact-link :focus {
+.contact-link:focus {
   color: #404bbf;
 }
 
